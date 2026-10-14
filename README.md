@@ -1,45 +1,40 @@
 # Sandhaan Pramaan Website
 
-A modern landing page for Sandhaan Pramaan, showcasing the firm’s legal strategy, tax advisory, compliance, and evidence-driven legal services.
+A modern Next.js landing page for Sandhaan Pramaan, showcasing legal strategy, tax advisory, compliance, and evidence-based legal services.
 
-## Features
-
-- Responsive one-page website
-- Professional legal services layout
-- Founder section and consultation CTA
-- Contact information section
-- Mobile-friendly navigation
-
-## Run locally
-
-Open `index.html` in a browser, or serve it with any static web server.
-
-Example:
+## Quick start
 
 ```bash
-python -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then visit:
+Open `http://localhost:3000`.
 
-```text
-http://localhost:8000
+## Production build
+
+```bash
+npm run build
+npm run start
 ```
+
+## Deploy to Vercel
+
+1. Push this repository to GitHub.
+2. Open https://vercel.com
+3. Import the repository.
+4. Use the default Next.js settings.
+5. Deploy.
 
 ## Files
 
-- `index.html` – page structure
-- `style.css` – styling and responsiveness
-- `script.js` – mobile menu interaction
-- `assets/logo.svg` – custom logo
+- `app/page.tsx` – main landing page
+- `app/layout.tsx` – app metadata and root wrapper
+- `app/globals.css` – full site styling
+- `public/logo.svg` – logo asset
 
 ## Contact
 
 - Phone: +91-9686479509
 - Email: info@sandhaanpramaan.com
 - Location: India
-
----
-
-Built for Sandhaan Pramaan.
-
